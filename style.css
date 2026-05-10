@@ -19,6 +19,9 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     min-height: 100vh;

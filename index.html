@@ -33,7 +33,7 @@
         </div>   
     </header>
     <main>
-        <section>
+        <section id="home">
             <div class="hero-section">
                 <div class="hero-content">
                     <div class="content-left">
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="features">
             <div class="features-container">
                 <div class="features-content">
                     <div class="features-intro">
@@ -147,7 +147,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="about">
             <div class="testimonial-container">
                 <div class="testimonial-content">
                     <h2 class="testimonial-heading">
@@ -192,7 +192,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="contact">
             <div class="newsletter-container">
                 <div class="newsletter-content">
                     <div class="newsletter-left">
@@ -292,7 +292,7 @@
     // Function to Toggle Mobile Menu
     menuBtn.addEventListener('click', (e) => {
         navMenu.classList.toggle('active');
-        e.stopPropagation(); // Click ko bahar jane se rokne ke liye
+        e.stopPropagation();
     });
 
     // Close menu when clicking anywhere outside
